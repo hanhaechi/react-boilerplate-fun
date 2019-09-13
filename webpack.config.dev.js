@@ -5,5 +5,6 @@ module.exports = merge(baseConfig, {
   mode: "development",
   devServer: {
     port: 9000
-  }
+  },
+  devtool: "source-map" //allows to debug original code in Inspect > Sources tab
 });
