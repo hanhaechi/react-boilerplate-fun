@@ -7,7 +7,8 @@
     "dev": "webpack-dev-server --open --config webpack.config.dev.js",
     "dev:hot": "npm run dev -- --hot",
     "test": "jest",
-    "format": "pretty-quick"
+    "format": "pretty-quick",
+    "lint": "eslint ./"
   },
   "author": "mod",
   "license": "ISC",
@@ -32,6 +33,9 @@
     "@testing-library/react": "^9.1.4",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
+    "eslint": "^6.4.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
     "html-webpack-plugin": "^3.2.0",
     "jest": "^24.9.0",
     "prettier": "^1.18.2",
@@ -45,6 +49,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.6.0",
+    "babel-eslint": "^10.0.3",
     "npm": "^6.11.3",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
